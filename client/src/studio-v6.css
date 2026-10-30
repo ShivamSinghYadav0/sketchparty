@@ -1,0 +1,131 @@
+/* Sketchparty v6 — restrained multiplayer-game art direction */
+.homepage{--studio-accent:#3b88ff;--studio-accent-soft:#8ac9ff;--studio-dark:#081526;--studio-line:rgba(189,214,241,.12);background:radial-gradient(ellipse 44% 31% at 75% 9%,rgba(23,78,124,.2),transparent),linear-gradient(165deg,#071322 0%,#0b1b2c 52%,#091626 100%)!important;color:#e6f2ff}
+.homepage.theme-jungle{--studio-accent:#2bad80;--studio-accent-soft:#64d7bc;background:radial-gradient(ellipse 45% 40% at 82% 5%,rgba(28,94,75,.25),transparent),linear-gradient(150deg,#091a1a,#0b2024 57%,#091a20)!important}
+.homepage.theme-honey{--studio-accent:#d7a847;--studio-accent-soft:#f8d88a;background:radial-gradient(ellipse 44% 34% at 78% 8%,rgba(119,88,38,.25),transparent),linear-gradient(155deg,#181b21,#222525 53%,#141c24)!important}
+.homepage .decor{display:none!important}
+.homepage .site-container{width:min(1510px,calc(100% - 88px));max-width:none}
+.homepage .site-header{border-color:var(--studio-line);height:82px}
+.homepage .brand,.homepage .brand-accent{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:850;letter-spacing:-1.1px}
+.homepage .brand{font-size:28px}
+.homepage .brand-accent{color:#52a4ff}
+.homepage .brand-symbol{font-size:22px;width:38px;height:38px;border-radius:11px;background:var(--studio-accent)!important;box-shadow:none;transform:none}
+.homepage .main-nav{gap:32px}
+.homepage .main-nav a,.homepage .main-nav button{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:650;font-size:13px;letter-spacing:0;text-transform:none;color:#bdcada}
+.homepage .connection{font-size:11px;letter-spacing:0;background:rgba(255,255,255,.03);border-color:var(--studio-line)}
+.homepage .connection .online{background:#34d399}
+.homepage .nav-play{background:var(--studio-accent)!important;color:#fff!important;box-shadow:0 5px 16px rgba(38,117,240,.22);border:none;border-radius:10px;letter-spacing:0;padding:12px 20px;font-weight:750}
+.homepage .home-layout{max-width:1480px;grid-template-columns:minmax(0,1.2fr) minmax(350px,.8fr);gap:clamp(28px,3vw,65px);padding:55px 0 65px;align-items:start}
+.homepage .hero-area{padding:5px 0 0;min-width:0}
+.homepage .hero-area::before,.homepage .hero-area::after,.homepage .entry-card::before,.homepage .entry-card::after{display:none!important;content:none!important}
+.homepage .hero-area h1{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:-2.8px;color:#f5f9ff;font-size:clamp(51px,4.2vw,76px);line-height:1.11;font-weight:850;margin:19px 0 15px;max-width:850px}
+.homepage .hero-area h1 .text-guess{color:#61a7ff!important}
+.homepage.theme-jungle .hero-area h1 .text-guess{color:#6bd9bc!important}
+.homepage.theme-honey .hero-area h1 .text-guess{color:#f2c878!important}
+.studio-eyebrow{display:inline-flex;align-items:center;gap:9px;color:#85a7c4;font-size:10px;letter-spacing:2.1px;font-weight:850}
+.studio-dot{width:7px;height:7px;border-radius:50%;background:#2adea9;box-shadow:0 0 0 5px rgba(45,222,169,.1)}
+.homepage .hero-desc{font-size:15px;color:#aebfd3;line-height:1.7;max-width:650px;margin:0 0 19px;font-weight:460}
+.homepage .hero-actions{margin:23px 0 38px;gap:21px}
+.homepage .hero-play{background:var(--studio-accent);border:1px solid rgba(255,255,255,.12);box-shadow:0 8px 24px rgba(15,86,180,.19);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:14px;font-weight:800;letter-spacing:0;padding:15px 22px;min-width:178px;justify-content:space-between;border-radius:10px}
+.homepage .hero-play:hover{background:color-mix(in srgb,var(--studio-accent),white 15%)}
+.homepage .hero-how{font:750 13px system-ui,-apple-system,"Segoe UI",sans-serif;color:#d8e7f6;border:0;padding:12px 3px;display:inline-flex;align-items:center;gap:9px}
+.homepage .hero-how span{color:#8dabc4}
+.homepage .entry-card{background:rgba(11,28,44,.93);border:1px solid var(--studio-line);border-radius:18px;box-shadow:0 18px 64px rgba(0,0,0,.2);padding:27px 30px 28px;margin-top:3px}
+.homepage.theme-honey .entry-card,.homepage.theme-jungle .entry-card{background:rgba(13,27,34,.94)}
+.homepage .entry-topline{letter-spacing:1.65px;font-size:10px;color:#8cadc8;margin-bottom:17px}
+.homepage .entry-sticker{border:0;background:none;letter-spacing:.5px;font-size:9px;color:#79b59e}
+.homepage .entry-card h2{font:800 30px system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:-.9px;color:#f5f9ff}
+.homepage .entry-subtitle{font-size:12px;line-height:1.6;color:#aabdd0;margin:6px 0 18px}
+.homepage .identity-preview{border:1px solid rgba(170,207,239,.13);background:rgba(255,255,255,.025)!important;padding:11px;border-radius:12px}
+.homepage .identity-preview small{letter-spacing:1.2px}
+.homepage .identity-avatar{width:54px;height:54px;overflow:hidden;border-radius:12px;border:1px solid rgba(255,255,255,.13);background:#193248;box-shadow:none}
+.portrait-avatar{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+.homepage .identity-star{display:none}
+.homepage .field-label{font-size:10px;letter-spacing:1px;color:#b5cce1}
+.homepage .field-input,.homepage .region-trigger{border:1px solid rgba(169,205,233,.16);background:#12273a;color:#eaf3fd;border-radius:9px;min-height:45px}
+.homepage .avatar-picker{grid-template-columns:repeat(6,minmax(0,1fr));gap:7px}
+.homepage .avatar-option{background:#16293a;border:1px solid rgba(172,203,235,.15);border-radius:10px;height:47px;font-size:23px;overflow:hidden;padding:0;box-shadow:none}
+.homepage .avatar-option .portrait-avatar{width:100%;height:100%;object-fit:cover}
+.homepage .avatar-option.chosen{background:#143759;border:2px solid var(--studio-accent);box-shadow:none;transform:none}
+.homepage .avatar-option:hover:not(:disabled){background:#1c394f;transform:none}
+.homepage .room-type{background:#10273a;border-color:rgba(152,196,230,.12)!important;border-radius:10px;min-height:72px}
+.homepage .room-type.active{background:#152f45;border-color:var(--studio-accent)!important;box-shadow:none}
+.homepage .room-type b{font-size:12px;color:#e4f0fd}
+.homepage .theme-picker{margin-top:15px}
+.homepage .theme-option{padding:8px 7px;border-radius:8px;border-color:rgba(161,200,230,.13)!important;font-size:10px;background:#14293b}
+.homepage .theme-option.active{border-color:var(--studio-accent)!important;background:#1a3a51;box-shadow:none}
+.homepage .settings-disclosure{margin:8px 0 14px}
+.homepage .cta-button{min-height:49px;border-radius:9px;background:var(--studio-accent);color:#fff;border:0;box-shadow:none;font:800 14px system-ui,-apple-system,"Segoe UI",sans-serif}
+.homepage .cta-button:hover:not(:disabled){background:var(--studio-accent)}
+.homepage .cta-button:disabled{background:#456b85}
+.homepage .cta-button span{font-size:18px}
+.homepage .explore-link{color:#a4c9e8}
+.homepage .join-form button{background:#1d4462;color:#d9f2ff}
+.home-shortcuts{border-color:var(--studio-line);padding:22px 0;margin-bottom:35px}
+.homepage .site-footer{border-color:var(--studio-line)}
+.homepage .site-footer,.homepage .footer-links button{color:#95abbf}
+.homepage .player-avatar .portrait-avatar{width:38px;height:38px;border-radius:12px}
+.in-game .player-avatar .portrait-avatar{width:100%;height:100%;border-radius:inherit;object-fit:cover}
+
+/* A compact, static demonstration of the actual game layout */
+.studio-preview{position:relative;background:#101f32;border:1px solid #2c435b;border-radius:16px;box-shadow:0 22px 45px rgba(0,0,0,.28);max-width:780px;min-width:0;isolation:isolate;margin:5px 25px 0 0}
+.studio-preview-top{height:40px;border-bottom:1px solid #2a3b51;display:flex;align-items:center;gap:20px;padding:0 15px;color:#87a0b8;font-size:10px;font-weight:700;letter-spacing:.4px}
+.studio-preview-mark{margin-right:auto;color:#c7dfff;font-size:10px;font-weight:850;letter-spacing:1.2px}
+.studio-preview-timer{color:#68cdb8}
+.studio-preview-main{display:grid;grid-template-columns:95px minmax(0,1fr) 125px;gap:10px;padding:12px 12px 8px;min-height:290px}
+.studio-preview-players{display:flex;flex-direction:column;gap:10px;padding-top:17px}
+.studio-player{display:flex;align-items:center;gap:6px;color:#e2ecf7;font-size:9px}
+.studio-player img,.studio-mini-avatar{width:29px;height:29px;object-fit:cover;display:grid;place-items:center;border-radius:50%;background:#1b4665;border:1px solid #3b5874;flex-shrink:0}
+.studio-player strong,.studio-player small{display:block;font-size:9px;line-height:1.4}
+.studio-player small{font-size:8px;color:#89abc2}
+.studio-preview-canvas{position:relative;border-radius:8px;background:#f7fbff;min-height:250px;display:flex;flex-direction:column;align-items:center;overflow:hidden}
+.studio-preview-word{font-size:11px;font-weight:750;letter-spacing:4px;color:#70869e;padding:14px 0 4px}
+.studio-preview-canvas svg{width:min(92%,340px);flex:1;min-height:0;max-height:215px}
+.studio-palette{display:flex;justify-content:center;gap:6px;padding:8px 0 9px}
+.studio-palette i{width:11px;height:11px;border-radius:50%;background:#192c46}
+.studio-palette i:nth-child(2){background:#3b82f6}.studio-palette i:nth-child(3){background:#12b981}.studio-palette i:nth-child(4){background:#e56b64}.studio-palette i:nth-child(5){background:#efb847}.studio-palette i:nth-child(6){background:#945bcd}.studio-palette i:nth-child(7){background:#b4b9c2}
+.studio-preview-chat{padding:6px 2px;color:#c2d2e5;min-width:0;overflow:hidden}
+.studio-chat-title{font-size:9px;font-weight:850;letter-spacing:1px;color:#7f9eb9;margin:4px 0 20px}
+.studio-preview-chat p{padding:8px 0;border-bottom:1px solid #253c53;font-size:9px;line-height:1.35;margin:0;overflow-wrap:anywhere}
+.studio-preview-chat b{display:block;color:#dce9f8;font-weight:750}
+.studio-preview-chat .studio-correct{font-weight:700;color:#5bdab5;border:0;font-size:9px}
+.studio-preview-bottom{height:35px;border-top:1px solid #2b4056;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:0 15px;color:#849fb7;font-size:9px;font-weight:650}
+.studio-human{position:absolute;width:88px;height:88px;border-radius:50%;overflow:hidden;border:3px solid #315979;box-shadow:0 9px 22px rgba(0,0,0,.35);background:#102438;z-index:2}
+.studio-human img{width:100%;height:100%;object-fit:cover;object-position:center 22%}
+.studio-human-boy{right:-31px;top:-35px}
+.studio-human-girl{left:-33px;bottom:4px;width:73px;height:73px;border-color:#437f8b}
+.studio-proof{display:flex;align-items:center;gap:18px;flex-wrap:wrap;font-size:10px;font-weight:700;color:#94acc5;margin-top:21px}
+.studio-proof span+span::before{content:'•';margin-right:17px;color:#4a7695}
+@media(max-width:1270px){.homepage .home-layout{grid-template-columns:minmax(0,1fr) minmax(340px,.83fr)}.studio-preview-main{grid-template-columns:70px minmax(0,1fr) 100px;gap:7px;padding:10px}.studio-player img,.studio-mini-avatar{width:25px;height:25px}}
+@media(max-width:1020px){.homepage .home-layout{grid-template-columns:1fr;gap:38px;max-width:700px;padding-top:45px}.homepage .site-container{width:calc(100% - 46px)}.homepage .hero-area h1{font-size:clamp(49px,7vw,67px)}.studio-preview-main{grid-template-columns:92px minmax(0,1fr) 120px}.homepage .entry-card{max-width:none;margin-top:10px}}
+@media(max-width:740px){.homepage .site-container{width:calc(100% - 32px)}.homepage .site-header{height:auto;min-height:74px}.homepage .hero-area h1{font-size:clamp(41px,8vw,58px)}.homepage .home-layout{padding-top:28px}.homepage .main-nav{gap:20px}.studio-preview{margin:12px 14px 0 0}.studio-human{width:65px;height:65px}.studio-human-girl{width:56px;height:56px}.studio-preview-main{grid-template-columns:70px minmax(0,1fr) 108px}.studio-preview-chat p{font-size:8px}}
+@media(max-width:510px){.homepage .hero-area h1{font-size:43px;letter-spacing:-1.7px}.homepage .hero-desc{font-size:13px}.homepage .site-container{width:calc(100% - 28px)}.homepage .entry-card{padding:22px 18px}.studio-preview-main{grid-template-columns:1fr;padding:9px}.studio-preview-players,.studio-preview-chat{display:none}.studio-preview-canvas{height:235px;min-height:235px}.studio-preview-bottom{font-size:8px}.studio-human-boy{right:-16px;top:-30px}.studio-human-girl{left:-12px}.homepage .studio-proof{gap:9px}.studio-proof span+span::before{margin-right:9px}.homepage .avatar-option{height:44px}.homepage .main-nav{gap:12px}}
+@media(prefers-reduced-motion:reduce){.studio-human,.studio-preview,.homepage .hero-actions button{animation:none;transition:none}}
+/* Typography: system fonts; never depend on a CDN font for a core screen. */
+.homepage .identity-preview strong,.homepage .section-heading strong,.homepage .settings-disclosure summary,.homepage .room-type b,.homepage .room-type small,.homepage .field-label,.homepage .entry-topline,.homepage .entry-sticker{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.homepage .identity-preview strong{font-size:15px;font-weight:750;letter-spacing:-.15px;color:#e9f3ff}
+.homepage .section-heading strong{font-size:15px;font-weight:750}
+.homepage .region-menu,.homepage .region-option,.homepage .region-trigger{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+
+/* 6.2: Word-mode selector is fully custom to avoid unreadable native Windows popups. */
+.homepage .settings-disclosure,.homepage .settings-grid{overflow:visible}
+.homepage .word-mode-field{position:relative;min-width:0;font-size:10px;font-weight:800;color:#9bb5d0;isolation:isolate}
+.homepage .word-mode-label{display:block;min-height:16px;color:#a5b9d0}
+.homepage .word-mode-picker{position:relative;margin-top:6px}
+.homepage .word-mode-picker.open{z-index:60}
+.homepage .word-mode-trigger{width:100%;height:45px;display:flex;align-items:center;justify-content:space-between;gap:8px;text-align:left;border-radius:9px;border:1px solid #426079;background:#182e3f;color:#f6fbff;padding:9px 12px;font-size:13px;font-weight:750;box-shadow:none}
+.homepage .word-mode-trigger:hover:not(:disabled),.homepage .word-mode-picker.open .word-mode-trigger{background:#203e55;border-color:#5b9dd2;transform:none}
+.homepage .word-mode-trigger:focus-visible{outline:3px solid #66bafb;outline-offset:2px}
+.homepage .word-mode-chevron{font-size:19px;font-weight:400;color:#b9d4e6;line-height:1}
+.homepage .word-mode-picker.open .word-mode-chevron{transform:rotate(180deg)}
+.homepage .word-mode-options{position:absolute;left:0;right:0;bottom:calc(100% + 7px);z-index:80;padding:5px;background:#0e2536;border:1px solid #4e718b;border-radius:10px;box-shadow:0 15px 30px #0008;display:flex;flex-direction:column;gap:3px}
+.homepage .word-mode-option{min-height:41px;width:100%;border-radius:7px;display:flex;justify-content:space-between;align-items:center;gap:8px;background:transparent;color:#f2f8ff;text-align:left;padding:10px 10px;font:750 13px system-ui,-apple-system,"Segoe UI",sans-serif}
+.homepage .word-mode-option:hover:not(:disabled),.homepage .word-mode-option:focus-visible{background:#254d68;color:#fff;transform:none;outline:0}
+.homepage .word-mode-option.selected{color:#a6e8ff;background:#193c51}
+.homepage .word-mode-check{color:#57d7b7;font-size:15px}
+.homepage.theme-jungle .word-mode-option.selected{color:#9ef1bd}
+.homepage.theme-honey .word-mode-option.selected{color:#f8d483}
+
+/* v6.3: native <select> is NOT used for Word mode; dropdown is a themed listbox. */
+.homepage .word-mode-version {float:right;color:#74ccb8;font-size:9px;letter-spacing:.5px;font-weight:750;}
+.homepage .word-mode-picker.open,.homepage .word-mode-field{z-index:100;}
+.homepage .word-mode-options {z-index:200;overflow:visible;}
