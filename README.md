@@ -75,7 +75,7 @@ These presentation-only changes do not modify the real-time multiplayer rules. T
 | Guesses/chat                                    | Shared input; drawer/correct guessers muted during drawing |
 | Scoring, leaderboard, winner                    | Server-owned scoring and end screen                        |
 | Normal and Hidden modes                         | Supported; Combination is optional and omitted             |
-| Public deployment URL                           | Pending account connection and deployment                  |
+| Public deployment URL                           |Live on Render — https://sketchparty-game.onrender.com/                  |
 | README/architecture/code explanation            | This file and ARCHITECTURE.md                              |
 
 Optional categories, custom words, moderation, multiple languages, spectators and replay are not implemented. They are not required by the PDF's must-have list.
@@ -109,8 +109,8 @@ Use one **Node Web Service**, serving both Express and the compiled React fronte
 4. Start command: `npm start`; health check: `/api/health`.
 5. Keep **one instance**. The server binds `0.0.0.0` and uses Render's `PORT` environment variable.
 6. After deployment, test the live URL in two independent browsers/devices. Verify create → join → ready → choose → draw → guess → score → winner.
-7. Replace the pending live-URL line at the top with the actual verified URL.
-
+7. The live deployment URL has been verified and added to this README.
+   
 Frontend and WebSocket backend share the same origin; no hardcoded localhost endpoints or separate CORS setup are needed. Render supports inbound WebSockets on the same port. Free services may sleep when idle; a cold start is not a game bug. Do not deploy the Node server as a Vercel/Netlify frontend-only static site.
 
 Official references: https://render.com/docs/deploy-node-express-app and https://render.com/docs/websocket
@@ -134,7 +134,7 @@ Use **START_WINDOWS.bat** to launch the current UI at **http://localhost:3017/?u
 
 See **[DEPLOYMENT_AND_SUBMISSION.md](DEPLOYMENT_AND_SUBMISSION.md)** for GitHub upload, Render Web Service creation, a two-browser production test, and a final assignment submission template. GitHub Actions (`.github/workflows/ci.yml`) automatically builds and tests the repository after push. `smoke-production.mjs` is a dependency-free HTTP/Socket.IO production smoke check.
 
-**Production status:** Not yet deployed or tested on Render. The URL at the top stays `PENDING` until a real Render deployment is available and verified.
+Production status: Successfully deployed on Render. Live multiplayer gameplay has been tested with two players.
 
 
 ## v6 Studio Homepage (30 October 2026)
