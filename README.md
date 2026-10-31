@@ -4,7 +4,9 @@
 
 A multiplayer drawing and guessing game built for the **Intern Assignment: skribbl.io Clone**. React + TypeScript + Vite, HTML5 Canvas, Node.js + Express, and Socket.IO.
 
-**Live deployment URL: PENDING — hosting account connection and production verification required.** This package is not a claim of completed public deployment.
+**Live deployment URL:** https://sketchparty-game.onrender.com/
+
+**Deployment Status:** Successfully deployed on Render. Production build passed, all 15 automated tests passed, and the live multiplayer game was manually tested with two players.
 
 ## Run locally (Windows, macOS, Linux)
 
